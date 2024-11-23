@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 4, 32);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(15, 15, 48);
+    padding: 10px;
+    ;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+form {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 15px system-ui;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 6px 9px;
+}
+
+.thumbnail {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
